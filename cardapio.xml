@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+
+    <prato id="p01">
+
+        <nome>Pão Francês</nome>
+
+        <descricao>Um pãozinho que muita gente come</descricao>
+
+        <ingredientes>
+            <ingrediente>Fermento</ingrediente>
+            <ingrediente>Farinha</ingrediente>
+
+        </ingredientes>
+
+        <preco moeda="BRL">&reais;3,00</preco>
+
+        <preco moeda="USD">USD 0,60</preco>
+
+        <calorias>250</calorias>
+
+        <tempoPreparo>3min</tempoPreparo>
+
+    </prato>
+
+
+    <prato id="p02">
+
+        <nome>Bolo de Banana</nome>
+
+        <descricao>Um bolo doce</descricao>
+
+        <ingredientes>
+            <ingrediente>banana</ingrediente>
+            <ingrediente>farinha</ingrediente>
+            <ingrediente> ovos</ingrediente>
+        </ingredientes>
+
+        <preco moeda="BRL">&reais; 15,00</preco>
+
+        <preco moeda="USD">USD 3,00</preco>
+
+        <calorias>320</calorias>
+
+        <tempoPreparo>45min</tempoPreparo>
+
+    </prato>
+
+
+    <prato id="p03">
+
+        <nome>Café Expresso</nome>
+
+        <descricao>Café pra aumentar o foco</descricao>
+
+        <ingredientes>
+            <ingrediente>Grãos de café</ingrediente>
+            <ingrediente>água</ingrediente>
+
+        </ingredientes>
+
+        <preco moeda="BRL">&reais;6,00</preco>
+
+        <preco moeda="USD">USD 1,20</preco>
+
+        <calorias>5</calorias>
+
+        <tempoPreparo>2min</tempoPreparo>
+
+    </prato>
+
+    <prato id="p04">
+        <nome>Pão na Chapa</nome>
+        <descricao>Pão de tradição mesmo</descricao>
+        <ingredientes>
+            <ingrediente>Pão francês</ingrediente>
+            <ingrediente>Manteiga</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 5,00</preco>
+        <preco moeda="USD">USD 1,00</preco>
+        <calorias>310</calorias>
+        <tempoPreparo>5min</tempoPreparo>
+    </prato>
+
+    <prato id="p05">
+        <nome>Hambúrguer</nome>
+        <descricao>Esse é o que muitos personagens fictícios gostam</descricao>
+        <ingredientes>
+            <ingrediente>Carne</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Alface</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 25,00</preco>
+        <preco moeda="USD">USD 5,00</preco>
+        <calorias>550</calorias>
+        <tempoPreparo>15min</tempoPreparo>
+    </prato>
+</cardapio>
