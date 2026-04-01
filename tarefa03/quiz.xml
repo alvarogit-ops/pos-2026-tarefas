@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz>
+    <questao id="1">
+        <pergunta>Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?</pergunta>
+        <alternativa letra="a" correta="nao">Tem entre 2 a 4 litros. São retirados 450 mililitros</alternativa>
+        <alternativa letra="b" correta="sim">Tem entre 4 a 6 litros. São retirados 450 mililitros</alternativa>
+        <alternativa letra="c" correta="nao">Tem 10 litros. São retirados 2 litros</alternativa>
+        <alternativa letra="d" correta="nao">Tem 7 litros. São retirados 1,5 litros</alternativa>
+    </questao>
+
+    <questao id="2">
+        <pergunta>De quem é a famosa frase “Penso, logo existo”?</pergunta>
+        <alternativa letra="a" correta="nao">Platão</alternativa>
+        <alternativa letra="b" correta="nao">Galileu Galilei</alternativa>
+        <alternativa letra="c" correta="sim">Descartes</alternativa>
+        <alternativa letra="d" correta="nao">Sócrates</alternativa>
+    </questao>
+
+    <questao id="3">
+        <pergunta>De onde é a invenção do chuveiro elétrico?</pergunta>
+        <alternativa letra="a" correta="nao">França</alternativa>
+        <alternativa letra="b" correta="nao">Inglaterra</alternativa>
+        <alternativa letra="c" correta="sim">Brasil</alternativa>
+        <alternativa letra="d" correta="nao">Austrália</alternativa>
+        <alternativa letra="e" correta="nao">Itália</alternativa>
+    </questao>
+
+    <questao id="4">
+        <pergunta>Quais o menor e o maior país do mundo?</pergunta>
+        <alternativa letra="a" correta="sim">Vaticano e Rússia</alternativa>
+        <alternativa letra="b" correta="nao">Nauru e China</alternativa>
+        <alternativa letra="c" correta="nao">Mônaco e Canadá</alternativa>
+        <alternativa letra="d" correta="nao">Malta e Estados Unidos</alternativa>
+        <alternativa letra="e" correta="nao">São Marino e Índia</alternativa>
+    </questao>
+
+    <questao id="5">
+        <pergunta>Qual o nome do presidente do Brasil que ficou conhecido como Jango?</pergunta>
+        <alternativa letra="a" correta="nao">Jânio Quadros</alternativa>
+        <alternativa letra="b" correta="nao">Jacinto Anjos</alternativa>
+        <alternativa letra="c" correta="nao">Getúlio Vargas</alternativa>
+        <alternativa letra="d" correta="nao">João Figueiredo</alternativa>
+        <alternativa letra="e" correta="sim">João Goulart</alternativa>
+    </questao>
+</quiz>
+
+

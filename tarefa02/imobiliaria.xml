@@ -1,77 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE imovel [
-<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
-<!ELEMENT descricao (#PCDATA)>
-<!ELEMENT proprietario (nome*, (email|telefone?))>
-<!ELEMENT nome (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT telefone (#PCDATA)>
-<!ELEMENT endereco (rua, bairro, cidade, numero?)>
-<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
-
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imoveis)>
+  <!ELEMENT imoveis (imovel+)>
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT proprietario (nome*, (email | telefone)*)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
 ]>
-<imovel>
-    <descricao>Casa com 2 dormitórios à venda, 61 m² por R$ 220.000,00 - Cidade das Rosas II - São Gonçalo do Amarante/RN</descricao>
-    <proprietario>Tr Imóveis</proprietario>
-    <telefone>84 99999-9999</telefone>
-    <telefone>84 88888-8888</telefone>
-    <endereco>Rua Evangelina Andrade, 22, Jardins, São Gonçalo Do Amarante/RN</endereco>
-    <caracteristicas>Sala ampla para 2 ambientes
-2 dormitórios (sendo 1 suíte)
-Banheiro social
-Cozinha
-Área de serviço
-Quintal espaçoso
-Vaga de garagem</caracteristicas>
-</imovel>
+<imobiliaria>
+  <imoveis>
+    <imovel>
+      <descricao>Casa com 2 dormitórios à venda</descricao>
+      <proprietario>
+        <nome>Tr Imoveis</nome>
+        <telefone>84 99999-9999</telefone>
+      </proprietario>
+      <endereco>
+        <rua>Rua Evangelina Andrade</rua>
+        <bairro>Jardins</bairro>
+        <cidade>São Gonçalo Do Amarante/RN</cidade>
+        <numero>22</numero>
+      </endereco>
+      <caracteristicas>
+        <tamanho>61m2</tamanho>
+        <numQuartos>2</numQuartos>
+        <numBanheiros>2</numBanheiros>
+      </caracteristicas>
+      <valor>220.000,00</valor>
+    </imovel>
 
-<imovel>
-<descricao>
-<proprietario>
-<telefone>
-<telefone>
-<endereco>
-<caracteristicas>
+    <imovel>
+      <descricao>Apartamento Estúdio em Ponta Negra</descricao>
+      <proprietario>
+        <nome>Flávio Costa</nome>
+        <telefone>84 9999-99999</telefone>
+      </proprietario>
+      <endereco>
+        <rua>Avenida Engenheiro Roberto Freire</rua>
+        <bairro>Ponta Negra</bairro>
+        <cidade>Natal/RN</cidade>
+        <numero>100</numero>
+      </endereco>
+      <caracteristicas>
+        <tamanho>30m2</tamanho>
+        <numQuartos>1</numQuartos>
+        <numBanheiros>1</numBanheiros>
+      </caracteristicas>
+      <valor>1.000,00</valor>
+    </imovel>
 
+    <imovel>
+      <descricao>Casa de Luxo em Condomínio Fechado - Green Club</descricao>
+      <proprietario>
+        <nome>Imobiliária Verdes Mares</nome>
+        <email>contato@verdesmares.com.br</email>
+      </proprietario>
+      <endereco>
+        <rua>Av. Gastão Mariz de Faria</rua>
+        <bairro>Nova Parnamirim</bairro>
+        <cidade>Parnamirim/RN</cidade>
+      </endereco>
+      <caracteristicas>
+        <tamanho>250m2</tamanho>
+        <numQuartos>4</numQuartos>
+        <numBanheiros>5</numBanheiros>
+      </caracteristicas>
+      <valor>1.150.000,00</valor>
+    </imovel>
 
+    <imovel>
+      <descricao>Apartamento com Varanda Gourmet e Vista Mar</descricao>
+      <proprietario>
+        <nome>Sol e Mar Negócios</nome>
+        <telefone>84 3211-0000</telefone>
+      </proprietario>
+      <endereco>
+        <rua>Rua Pedro Fonseca Filho</rua>
+        <bairro>Areia Preta</bairro>
+        <cidade>Natal/RN</cidade>
+        <numero>450</numero>
+      </endereco>
+      <caracteristicas>
+        <tamanho>115m2</tamanho>
+        <numQuartos>3</numQuartos>
+        <numBanheiros>3</numBanheiros>
+      </caracteristicas>
+      <valor>890.000,00</valor>
+    </imovel>
 
-</imovel>
-
-<imovel>
-<descricao>
-<proprietario>
-<telefone>
-<telefone>
-<endereco>
-<caracteristicas>
-
-
-
-</imovel>
-
-
-<imovel>
-<descricao>
-<proprietario>
-<telefone>
-<telefone>
-<endereco>
-<caracteristicas>
-
-
-
-</imovel>
-
-
-<imovel>
-<descricao>
-<proprietario>
-<telefone>
-<telefone>
-<endereco>
-<caracteristicas>
-
-
-
-</imovel>
-
+    <imovel>
+      <descricao>Cobertura Duplex com Piscina Privativa</descricao>
+      <proprietario>
+        <nome>Ricardo Corretor</nome>
+        <telefone>84 98888-7777</telefone>
+      </proprietario>
+      <endereco>
+        <rua>Rua Mossoró</rua>
+        <bairro>Petrópolis</bairro>
+        <cidade>Natal/RN</cidade>
+        <numero>12</numero>
+      </endereco>
+      <caracteristicas>
+        <tamanho>180m2</tamanho>
+        <numQuartos>3</numQuartos>
+        <numBanheiros>4</numBanheiros>
+      </caracteristicas>
+      <valor>1.500.000,00</valor>
+    </imovel>
+  </imoveis>
+</imobiliaria>
