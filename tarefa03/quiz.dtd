@@ -1,8 +1,8 @@
-<!ELEMENT quiz (questao +)>
+<!ELEMENT quiz (questao+)>
 <!ELEMENT questao (pergunta, alternativa+)>
-<!ATTLIST questao id ID #REQUIRED>
+<!ATTLIST questao id CDATA #REQUIRED>
 <!ELEMENT pergunta (#PCDATA)>
-<!ELEMENT opcao (#PCDATA)>
-<!ATTLIST opcao 
-    letra (a|b|c|d) #REQUIRED
+<!ELEMENT alternativa (#PCDATA)>
+<!ATTLIST alternativa
+    letra (a|b|c|d|e) #REQUIRED
     correta (sim|nao) #REQUIRED>
