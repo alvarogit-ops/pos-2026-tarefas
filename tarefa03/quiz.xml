@@ -23,7 +23,6 @@
         <alternativa letra="b" correta="nao">Inglaterra</alternativa>
         <alternativa letra="c" correta="sim">Brasil</alternativa>
         <alternativa letra="d" correta="nao">Austrália</alternativa>
-        <alternativa letra="e" correta="nao">Itália</alternativa>
     </questao>
 
     <questao id="4">
@@ -32,17 +31,13 @@
         <alternativa letra="b" correta="nao">Nauru e China</alternativa>
         <alternativa letra="c" correta="nao">Mônaco e Canadá</alternativa>
         <alternativa letra="d" correta="nao">Malta e Estados Unidos</alternativa>
-        <alternativa letra="e" correta="nao">São Marino e Índia</alternativa>
     </questao>
 
     <questao id="5">
         <pergunta>Qual o nome do presidente do Brasil que ficou conhecido como Jango?</pergunta>
-        <alternativa letra="a" correta="nao">Jânio Quadros</alternativa>
+        <alternativa letra="a" correta="sim">João Goulart</alternativa>
         <alternativa letra="b" correta="nao">Jacinto Anjos</alternativa>
         <alternativa letra="c" correta="nao">Getúlio Vargas</alternativa>
         <alternativa letra="d" correta="nao">João Figueiredo</alternativa>
-        <alternativa letra="e" correta="sim">João Goulart</alternativa>
     </questao>
 </quiz>
-
-

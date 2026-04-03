@@ -4,5 +4,5 @@
 <!ELEMENT pergunta (#PCDATA)>
 <!ELEMENT alternativa (#PCDATA)>
 <!ATTLIST alternativa
-    letra (a|b|c|d|e) #REQUIRED
+    letra (a|b|c|d) #REQUIRED
     correta (sim|nao) #REQUIRED>
