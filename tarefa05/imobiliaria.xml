@@ -1,0 +1,23 @@
+<imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="imobiliaria.xsd">
+
+  <imovel>
+    <descricao>Apartamento test</descricao>
+    <proprietario>
+      <nome>Pedro Silva</nome>
+      <telefone>(85) 9123-4567</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua Teste</rua>
+      <bairro>Bairro X</bairro>
+      <cidade>Fortaleza</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>80.5</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 300.000</valor>
+  </imovel>
+
+</imobiliaria>

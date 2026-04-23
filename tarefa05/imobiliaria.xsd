@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="caracteristicasType">
+    <xs:sequence>
+      <xs:element name="tamanho" type="xs:decimal"/>
+      <xs:element name="numQuartos" type="xs:integer"/>
+      <xs:element name="numBanheiros" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="imovelType">
+    <xs:sequence>
+      <xs:element name="descricao" type="xs:string"/>
+      <xs:element name="proprietario" type="xs:string"/>   <!-- ERRO: proprietario é string, mas deveria ser tipo complexo -->
+      <xs:element name="endereco" type="xs:string"/>        <!-- ERRO: endereco também string -->
+      <xs:element name="caracteristicas" type="caracteristicasType"/>
+      <xs:element name="valor" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="imobiliaria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="imovel" type="imovelType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
