@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+  <xs:complexType name="proprietarioType">
+    <xs:sequence>
+      <xs:element name="nome" type="xs:string"/>
+      <xs:element name="email" type="xs:string" minOccurs="0"/>
+      <xs:element name="telefone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="enderecoType">
+    <xs:sequence>
+      <xs:element name="rua" type="xs:string"/>
+      <xs:element name="bairro" type="xs:string"/>
+      <xs:element name="cidade" type="xs:string"/>
+      <xs:element name="numero" type="xs:integer" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
   <xs:complexType name="caracteristicasType">
     <xs:sequence>
       <xs:element name="tamanho" type="xs:decimal"/>
@@ -12,8 +29,8 @@
   <xs:complexType name="imovelType">
     <xs:sequence>
       <xs:element name="descricao" type="xs:string"/>
-      <xs:element name="proprietario" type="xs:string"/>   <!-- ERRO: proprietario é string, mas deveria ser tipo complexo -->
-      <xs:element name="endereco" type="xs:string"/>        <!-- ERRO: endereco também string -->
+      <xs:element name="proprietario" type="proprietarioType"/>
+      <xs:element name="endereco" type="enderecoType"/>
       <xs:element name="caracteristicas" type="caracteristicasType"/>
       <xs:element name="valor" type="xs:string"/>
     </xs:sequence>

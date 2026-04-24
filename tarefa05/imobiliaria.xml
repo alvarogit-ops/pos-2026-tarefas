@@ -1,23 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="imobiliaria.xsd">
 
+ 
   <imovel>
-    <descricao>Apartamento test</descricao>
+    <descricao>Apartamento à venda no Condomínio Certto Home Club, Nova Parnamirim, com 42 m², 2 quartos, sala ampla, WC social, cozinha e 1 vaga de garagem. Condomínio com lazer completo e segurança 24h.</descricao>
     <proprietario>
-      <nome>Pedro Silva</nome>
-      <telefone>(85) 9123-4567</telefone>
+      <nome>Carlos Oliveira</nome>
+      <email>carlos@email.com</email>
+      <telefone>(84) 4008-0001</telefone>
+      <telefone>(84) 9999-1111</telefone>
     </proprietario>
     <endereco>
-      <rua>Rua Teste</rua>
-      <bairro>Bairro X</bairro>
-      <cidade>Fortaleza</cidade>
+      <rua>Avenida Maria Lacerda</rua>
+      <bairro>Nova Parnamirim</bairro>
+      <cidade>Parnamirim</cidade>
+   
     </endereco>
     <caracteristicas>
-      <tamanho>80.5</tamanho>
-      <numQuartos>3</numQuartos>
-      <numBanheiros>2</numBanheiros>
+      <tamanho>42.0</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
     </caracteristicas>
-    <valor>R$ 300.000</valor>
+    <valor>R$ 250.000</valor>
+  </imovel>
+
+ 
+  <imovel>
+    <descricao>Apartamento no Condomínio Alto da Boa Vista, Cidade Alta, Natal. Com 74 m², 3 quartos (1 suíte), sala ampla com varanda, cozinha espaçosa, área de serviço, dependência completa e 2 vagas de garagem. Condomínio com piscina, churrasqueira, quadra, academia, salão de festas e playground.</descricao>
+    <proprietario>
+      <nome>Maria Souza</nome>
+      <telefone>(84) 4008-0001</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua do Condomínio</rua>
+      <bairro>Cidade Alta</bairro>
+      <cidade>Natal</cidade>
+      <numero>123</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>74.0</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 395.000</valor>
+  </imovel>
+
+ 
+  <imovel>
+    <descricao>Cobertura duplex de altíssimo padrão no Edifício Francisco Cabral, bairro Tirol, Natal. Com 130,68 m² de área privativa, sala para 2 ambientes, varanda, 3 suítes, cozinha com área de serviço e lavabo. Possui 3 vagas de garagem cobertas e condomínio com lazer completo.</descricao>
+    <proprietario>
+      <nome>Pedro Lima</nome>
+      <email>pedro.lima@email.com</email>
+      <telefone>(84) 4008-0001</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua do Edifício Francisco Cabral</rua>
+      <bairro>Tirol</bairro>
+      <cidade>Natal</cidade>
+      <numero>456</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>130.68</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 1.400.000</valor>
+  </imovel>
+
+
+  <imovel>
+    <descricao>Apartamento à venda no condomínio Green Life Mor Gouveia, bairro Nossa Senhora de Nazaré, Natal. Com 57 m² de área privativa, 2 quartos (1 suíte), sala para 2 ambientes, banheiro social, cozinha, área de serviço e 2 vagas de garagem. Armários projetados na cozinha e banheiros. Condomínio com piscina, salões de festas, academia, churrasqueiras e playground.</descricao>
+    <proprietario>
+      <nome>Ana Costa</nome>
+      <telefone>(84) 4008-0001</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua do Condomínio Green Life Mor Gouveia</rua>
+      <bairro>Nossa Senhora de Nazaré</bairro>
+      <cidade>Natal</cidade>
+      <numero>789</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>57.0</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 400.000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Apartamento à venda no condomínio Green Life Mor Gouveia, bairro Nossa Senhora de Nazaré, com planta semelhante ao anterior, porém em andar diferente, com 57 m², 2 quartos (1 suíte), sala para 2 ambientes, banheiro social, cozinha, área de serviço e 2 vagas de garagem.</descricao>
+    <proprietario>
+      <nome>Roberto Alves</nome>
+      <email>roberto.alves@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua do Condomínio Green Life Mor Gouveia</rua>
+      <bairro>Nossa Senhora de Nazaré</bairro>
+      <cidade>Natal</cidade>
+      <numero>321</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>57.0</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 395.000</valor>
   </imovel>
 
 </imobiliaria>
