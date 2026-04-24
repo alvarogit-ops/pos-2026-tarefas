@@ -1,0 +1,134 @@
+{
+    "quiz": [
+        {
+            "id": "1",
+            "pergunta": "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
+            "alternativas": [
+                {
+                    "letra": "a",
+                    "correta": false,
+                    "texto": "Tem entre 2 a 4 litros. São retirados 450 mililitros"
+                },
+                {
+                    "letra": "b",
+                    "correta": true,
+                    "texto": "Tem entre 4 a 6 litros. São retirados 450 mililitros"
+                },
+                {
+                    "letra": "c",
+                    "correta": false,
+                    "texto": "Tem 10 litros. São retirados 2 litros"
+                },
+                {
+                    "letra": "d",
+                    "correta": false,
+                    "texto": "Tem 7 litros. São retirados 1,5 litros"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "pergunta": "De quem é a famosa frase “Penso, logo existo”?",
+            "alternativas": [
+                {
+                    "letra": "a",
+                    "correta": false,
+                    "texto": "Platão"
+                },
+                {
+                    "letra": "b",
+                    "correta": false,
+                    "texto": "Galileu Galilei"
+                },
+                {
+                    "letra": "c",
+                    "correta": true,
+                    "texto": "Descartes"
+                },
+                {
+                    "letra": "d",
+                    "correta": false,
+                    "texto": "Sócrates"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "pergunta": "De onde é a invenção do chuveiro elétrico?",
+            "alternativas": [
+                {
+                    "letra": "a",
+                    "correta": false,
+                    "texto": "França"
+                },
+                {
+                    "letra": "b",
+                    "correta": false,
+                    "texto": "Inglaterra"
+                },
+                {
+                    "letra": "c",
+                    "correta": true,
+                    "texto": "Brasil"
+                },
+                {
+                    "letra": "d",
+                    "correta": false,
+                    "texto": "Austrália"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "pergunta": "Quais o menor e o maior país do mundo?",
+            "alternativas": [
+                {
+                    "letra": "a",
+                    "correta": true,
+                    "texto": "Vaticano e Rússia"
+                },
+                {
+                    "letra": "b",
+                    "correta": false,
+                    "texto": "Nauru e China"
+                },
+                {
+                    "letra": "c",
+                    "correta": false,
+                    "texto": "Mônaco e Canadá"
+                },
+                {
+                    "letra": "d",
+                    "correta": false,
+                    "texto": "Malta e Estados Unidos"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "pergunta": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+            "alternativas": [
+                {
+                    "letra": "a",
+                    "correta": true,
+                    "texto": "João Goulart"
+                },
+                {
+                    "letra": "b",
+                    "correta": false,
+                    "texto": "Jacinto Anjos"
+                },
+                {
+                    "letra": "c",
+                    "correta": false,
+                    "texto": "Getúlio Vargas"
+                },
+                {
+                    "letra": "d",
+                    "correta": false,
+                    "texto": "João Figueiredo"
+                }
+            ]
+        }
+    ]
+}

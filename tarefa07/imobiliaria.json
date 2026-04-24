@@ -1,0 +1,126 @@
+{
+    "imobiliaria": [
+        {
+            "descricao": "Casa com 2 dormitórios à venda",
+            "proprietario": {
+                "nome": "Tr Imoveis",
+                "contatos": {
+                    "telefones": [
+                        "84 99999-9999"
+                    ],
+                    "emails": [
+                        "contato@trmoveis.com.br"
+                    ]
+                }
+            },
+            "endereco": {
+                "rua": "Rua Evangelina Andrade",
+                "bairro": "Jardins",
+                "cidade": "São Gonçalo Do Amarante/RN",
+                "numero": "22"
+            },
+            "caracteristicas": {
+                "tamanho": "61m2",
+                "quartos": "2",
+                "banheiros": "2"
+            },
+            "valor": "220.000,00"
+        },
+        {
+            "descricao": "Apartamento Estúdio em Ponta Negra",
+            "proprietario": {
+                "nome": "Flávio Costa",
+                "contatos": {
+                    "telefones": [
+                        "84 9999-99999"
+                    ],
+                    "emails": []
+                }
+            },
+            "endereco": {
+                "rua": "Avenida Engenheiro Roberto Freire",
+                "bairro": "Ponta Negra",
+                "cidade": "Natal/RN",
+                "numero": "100"
+            },
+            "caracteristicas": {
+                "tamanho": "30m2",
+                "quartos": "1",
+                "banheiros": "1"
+            },
+            "valor": "1.000,00"
+        },
+        {
+            "descricao": "Casa de Luxo em Condomínio Fechado - Green Club",
+            "proprietario": {
+                "nome": "Imobiliária Verdes Mares",
+                "contatos": {
+                    "telefones": [],
+                    "emails": [
+                        "contato@verdesmares.com.br"
+                    ]
+                }
+            },
+            "endereco": {
+                "rua": "Av. Gastão Mariz de Faria",
+                "bairro": "Nova Parnamirim",
+                "cidade": "Parnamirim/RN",
+                "numero": null
+            },
+            "caracteristicas": {
+                "tamanho": "250m2",
+                "quartos": "4",
+                "banheiros": "5"
+            },
+            "valor": "1.150.000,00"
+        },
+        {
+            "descricao": "Apartamento com Varanda Gourmet e Vista Mar",
+            "proprietario": {
+                "nome": "Sol e Mar Negócios",
+                "contatos": {
+                    "telefones": [
+                        "84 3211-0000"
+                    ],
+                    "emails": []
+                }
+            },
+            "endereco": {
+                "rua": "Rua Pedro Fonseca Filho",
+                "bairro": "Areia Preta",
+                "cidade": "Natal/RN",
+                "numero": "450"
+            },
+            "caracteristicas": {
+                "tamanho": "115m2",
+                "quartos": "3",
+                "banheiros": "3"
+            },
+            "valor": "890.000,00"
+        },
+        {
+            "descricao": "Cobertura Duplex com Piscina Privativa",
+            "proprietario": {
+                "nome": "Ricardo Corretor",
+                "contatos": {
+                    "telefones": [
+                        "84 98888-7777"
+                    ],
+                    "emails": []
+                }
+            },
+            "endereco": {
+                "rua": "Rua Mossoró",
+                "bairro": "Petrópolis",
+                "cidade": "Natal/RN",
+                "numero": "12"
+            },
+            "caracteristicas": {
+                "tamanho": "180m2",
+                "quartos": "3",
+                "banheiros": "4"
+            },
+            "valor": "1.500.000,00"
+        }
+    ]
+}

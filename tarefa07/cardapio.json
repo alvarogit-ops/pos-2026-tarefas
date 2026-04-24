@@ -1,0 +1,112 @@
+{
+    "cardapio": [
+        {
+            "id": "p01",
+            "nome": "Pão Francês",
+            "descricao": "Um pãozinho que muita gente come",
+            "ingredientes": [
+                "Fermento",
+                "Farinha"
+            ],
+            "precos": [
+                {
+                    "moeda": "BRL",
+                    "valor": "R$3,00"
+                },
+                {
+                    "moeda": "USD",
+                    "valor": "USD 0,60"
+                }
+            ],
+            "calorias": "250",
+            "tempoPreparo": "3min"
+        },
+        {
+            "id": "p02",
+            "nome": "Bolo de Banana",
+            "descricao": "Um bolo doce",
+            "ingredientes": [
+                "banana",
+                "farinha",
+                "ovos"
+            ],
+            "precos": [
+                {
+                    "moeda": "BRL",
+                    "valor": "R$ 15,00"
+                },
+                {
+                    "moeda": "USD",
+                    "valor": "USD 3,00"
+                }
+            ],
+            "calorias": "320",
+            "tempoPreparo": "45min"
+        },
+        {
+            "id": "p03",
+            "nome": "Café Expresso",
+            "descricao": "Café pra aumentar o foco",
+            "ingredientes": [
+                "Grãos de café",
+                "água"
+            ],
+            "precos": [
+                {
+                    "moeda": "BRL",
+                    "valor": "R$6,00"
+                },
+                {
+                    "moeda": "USD",
+                    "valor": "USD 1,20"
+                }
+            ],
+            "calorias": "5",
+            "tempoPreparo": "2min"
+        },
+        {
+            "id": "p04",
+            "nome": "Pão na Chapa",
+            "descricao": "Pão de tradição mesmo",
+            "ingredientes": [
+                "Pão francês",
+                "Manteiga"
+            ],
+            "precos": [
+                {
+                    "moeda": "BRL",
+                    "valor": "R$ 5,00"
+                },
+                {
+                    "moeda": "USD",
+                    "valor": "USD 1,00"
+                }
+            ],
+            "calorias": "310",
+            "tempoPreparo": "5min"
+        },
+        {
+            "id": "p05",
+            "nome": "Hambúrguer",
+            "descricao": "Esse é o que muitos personagens fictícios gostam",
+            "ingredientes": [
+                "Carne",
+                "Queijo",
+                "Pão",
+                "Alface"
+            ],
+            "precos": [
+                {
+                    "moeda": "BRL",
+                    "valor": "R$ 25,00"
+                },
+                {
+                    "moeda": "USD",
+                    "valor": "USD 5,00"
+                }
+            ],
+            "calorias": "550",
+            "tempoPreparo": "15min"
+        }
+    ]
+}

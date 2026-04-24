@@ -8,7 +8,7 @@
             <ingrediente>Fermento</ingrediente>
             <ingrediente>Farinha</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais;3,00</preco>
+        <preco moeda="BRL">R$3,00</preco>
         <preco moeda="USD">USD 0,60</preco>
         <calorias>250</calorias>
         <tempoPreparo>3min</tempoPreparo>
@@ -21,7 +21,7 @@
             <ingrediente>farinha</ingrediente>
             <ingrediente> ovos</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 15,00</preco>
+        <preco moeda="BRL">R$ 15,00</preco>
         <preco moeda="USD">USD 3,00</preco>
         <calorias>320</calorias>
         <tempoPreparo>45min</tempoPreparo>
@@ -33,7 +33,7 @@
             <ingrediente>Grãos de café</ingrediente>
             <ingrediente>água</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais;6,00</preco>
+        <preco moeda="BRL">R$6,00</preco>
         <preco moeda="USD">USD 1,20</preco>
         <calorias>5</calorias>
         <tempoPreparo>2min</tempoPreparo>
@@ -45,7 +45,7 @@
             <ingrediente>Pão francês</ingrediente>
             <ingrediente>Manteiga</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 5,00</preco>
+        <preco moeda="BRL">R$ 5,00</preco>
         <preco moeda="USD">USD 1,00</preco>
         <calorias>310</calorias>
         <tempoPreparo>5min</tempoPreparo>
@@ -59,7 +59,7 @@
             <ingrediente>Pão</ingrediente>
             <ingrediente>Alface</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 25,00</preco>
+        <preco moeda="BRL">R$ 25,00</preco>
         <preco moeda="USD">USD 5,00</preco>
         <calorias>550</calorias>
         <tempoPreparo>15min</tempoPreparo>
