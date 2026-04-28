@@ -1,0 +1,36 @@
+{
+    "imobiliária": {
+        "imóveis": [
+            {
+                "descrição": "Casa com 2 dormitórios à venda",
+                "proprietário": "Tr Imoveis",
+                "endereço": "Rua Evangelina Andrade, Jardins, São Gonçalo Do Amarante/RN",
+                "valor": "220.000,00"
+            },
+            {
+                "descrição": "Apartamento Estúdio em Ponta Negra",
+                "proprietário": "Flávio Costa",
+                "endereço": "Avenida Engenheiro Roberto Freire, Ponta Negra, Natal/RN",
+                "valor": "1.000,00"
+            },
+            {
+                "descrição": "Casa de Luxo em Condomínio Fechado - Green Club",
+                "proprietário": "Imobiliária Verdes Mares",
+                "endereço": "Av. Gastão Mariz de Faria, Nova Parnamirim, Parnamirim/RN",
+                "valor": "1.150.000,00"
+            },
+            {
+                "descrição": "Apartamento com Varanda Gourmet e Vista Mar",
+                "proprietário": "Sol e Mar Negócios",
+                "endereço": "Rua Pedro Fonseca Filho, Areia Preta, Natal/RN",
+                "valor": "890.000,00"
+            },
+            {
+                "descrição": "Cobertura Duplex com Piscina Privativa",
+                "proprietário": "Ricardo Corretor",
+                "endereço": "Rua Mossoró, Petrópolis, Natal/RN",
+                "valor": "1.500.000,00"
+            }
+        ]
+    }
+}
