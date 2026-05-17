@@ -1,15 +1,22 @@
 import requests
 
 API_URL = "https://jsonplaceholder.typicode.com/users/"
+
+def list():
+    request = requests.get(API_URL)
+    return request.json()
 def read(user_id):
     request = requests.get(f"{API_URL}{user_id}")
     dados_recebidos = request.json()
     print(dados_recebidos)
+    
 
     if request.status_code == 200:
         print('Sucesso!')    
     else:
         print("deu ruim :/")
+
+        return request.json()
 
 def create(novo_usuario):
 
@@ -19,6 +26,8 @@ def create(novo_usuario):
         print("deu certo criar o usuário :)")
     else:
         print("deu ruim criar o usuário:/")
+
+    return request.json()
 
 
 def update(user_id, dados_atualizados):
